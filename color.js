@@ -15,7 +15,6 @@ function setRandomColor() {
     document.getElementById("colorBox").style.background = getRandomColor();
 }
 
-
 function copyFunc(){
     let theText = document.getElementById("colorCode");
     navigator.clipboard.writeText(theText.innerHTML);
