@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="color.css">
-    <title>Single Color</title>
+    <title>Copy Random Color</title>
 </head>
 <body>
-    <h1 class="head">Copy Random Color</h1>
+    <h1 class="head">Copy <span>&nbsp;Random&nbsp;</span> Color</h1>
     <div class="box" >
         <div class="color" id="colorBox"></div>
-        <p onclick="copyFunc(), myTimeAlert(),setTimeout(myTimeAlertStop, 1000)" id="colorCode" >#1ABAAA</p>
+        <div class="text-line"><p onclick="copyFunc(), myTimeAlert(),setTimeout(myTimeAlertStop, 1000)" id="colorCode" >#1ABAAA </p><i onclick="copyFunc(), myTimeAlert(),setTimeout(myTimeAlertStop, 1000)" class="fa-regular fa-clone"></i></div>
         <div class="prompt">
             <p>Click above text to copy.</p>
         </div>
@@ -21,7 +22,7 @@
     </div>
     <div class="colorButton" onclick="getRandomColor(), setRandomColor()">
         <div class="backButton"></div>
-        <p class="textButton">Change Color</p>
+        <p class="textButton">Change Color <i class="fa-solid fa-shuffle"></i></p>
     </div>
 
     <script src="color.js"></script>
