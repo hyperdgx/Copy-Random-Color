@@ -117,6 +117,7 @@ html, body{
     cursor: pointer;
 }
 .notification{
+    text-wrap: nowrap;
     width: fit-content;
     font-family: 'Poppins', sans-serif;
     background-color: var(--backColor);
