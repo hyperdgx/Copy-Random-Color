@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
 }
 .text-line i{
     font-size: 12px;
