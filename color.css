@@ -43,16 +43,7 @@ html, body{
     border-radius: 8px;
     flex-direction: column;
 }
-.text-holder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-.text-holder i{
-    font-size: 12px;
-    cursor: pointer;
-}
+
 .color{
     background: #1abaaa;
     width: 138px;
